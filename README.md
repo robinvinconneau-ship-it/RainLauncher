@@ -22,7 +22,7 @@ chmod +x install.sh
 Or, one-liner (no clone needed):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/robinvinconneau-ship-it/Rain-Launcher/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install.sh | bash
 ```
 
 **Do not run the installer with `sudo`.** It installs into your own `$HOME`
@@ -48,7 +48,15 @@ or launch it from your application menu.
 
 Grab the `.exe` from the [Releases](https://github.com/robinvinconneau-ship-it/Rain-Launcher/releases)
 page, or run `RainLauncher.py` directly with Python 3 + `pip install pillow`.
+## Windows Install Dependecies
 
+You can install all required core components (Python 3, Tkinter, Pip, Pillow, and pywin32) automatically without cloning the repository manually.
+
+1. Open **PowerShell** as **Administrator** (Right-click -> Run as Administrator).
+2. Copy and paste the following command and press **Enter**:
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install_dependencies.ps1](https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install_dependencies.ps1) | iex
 ## Notes
 
 - On Linux, `.exe` games are launched through Wine automatically.
