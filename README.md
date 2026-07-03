@@ -56,7 +56,7 @@ You can install all required core components (Python 3, Tkinter, Pip, Pillow, an
 2. Copy and paste the following command and press **Enter**:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/Som4one/RainLauncher/main/install.ps1](https://raw.githubusercontent.com/Som4one/-Rain-s-Launcher-/main/install.ps1) | iex
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/Som4one/RainLauncher/main/install.ps1](https://raw.githubusercontent.com/Som4one/RainLauncher/main/install.ps1) | iex
 ```
 
 - On Linux, `.exe` games are launched through Wine automatically.
