@@ -3,17 +3,17 @@
 Im a bit new in the world of tech, so i wanted to do a little project called
 "rain launcher" — it's basically a launcher of `.exe` games with a simple gui.
 
-- **Windows**: fully supported, see [Releases](https://github.com/robinvinconneau-ship-it/RainLauncher/releases)
+- **Windows**: fully supported, see [Releases](https://github.com/Som4one/RainLauncher/releases)
   for a ready-to-use build, or just run `RainLauncher.py` with Python.
 - **Linux**: supported via the installer below — `.exe` games are launched
   automatically through [Wine](https://www.winehq.org).
 - There's also a **Lite version** (`Launcher Lite.py`) for a faster startup,
-  for people who don't care about a clean and beautiful gui.
+  for people who don't care about a clean and beautiful gui.(i need to patch some things before)
 
 ## Linux install
 
 ```bash
-git clone https://github.com/robinvinconneau-ship-it/RainLauncher.git
+git clone https://github.com/Som4one/RainLauncher.git
 cd "RainLauncher"
 chmod +x install.sh
 ./install.sh
@@ -22,7 +22,7 @@ chmod +x install.sh
 Or, one-liner (no clone needed):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/robinvinconneau-ship-it/RainLauncher/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Som4one/RainLauncher/main/install.sh | bash
 ```
 
 **Do not run the installer with `sudo`.** It installs into your own `$HOME`
@@ -46,7 +46,7 @@ or launch it from your application menu.
 
 ## Windows
 
-Grab the `.exe` from the [Releases](https://github.com/robinvinconneau-ship-it/RainLauncher/releases)
+Grab the `.exe` from the [Releases](https://github.com/Som4one/RainLauncher/releases)
 page, or run `RainLauncher.py` directly with Python 3 + `pip install pillow`.
 ## Windows Install Dependecies
 
@@ -56,7 +56,7 @@ You can install all required core components (Python 3, Tkinter, Pip, Pillow, an
 2. Copy and paste the following command and press **Enter**:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/robinvinconneau-ship-it/RainLauncher/main/install.ps1](https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install.ps1) | iex
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/Som4one/RainLauncher/main/install.ps1](https://raw.githubusercontent.com/Som4one/-Rain-s-Launcher-/main/install.ps1) | iex
 ```
 
 - On Linux, `.exe` games are launched through Wine automatically.
