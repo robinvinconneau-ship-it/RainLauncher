@@ -57,7 +57,7 @@ You can install all required core components (Python 3, Tkinter, Pip, Pillow, an
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; irm [https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install_dependencies.ps1](https://raw.githubusercontent.com/robinvinconneau-ship-it/-Rain-s-Launcher-/main/install_dependencies.ps1) | iex
-## Notes
+```
 
 - On Linux, `.exe` games are launched through Wine automatically.
 - On Arch-based distros, Wine may need the `[multilib]` repo enabled in
